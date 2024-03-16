@@ -4,7 +4,6 @@ const catalogoProductos = {
     "Chaqueta": 50,
     "Zapatos": 35
 };
-
 function mostrarCatalogoProductos() {
     let catalogoDiv = document.createElement('div');
     catalogoDiv.innerHTML = "<h3>Catálogo de productos:</h3>";
